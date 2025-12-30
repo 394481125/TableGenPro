@@ -1,0 +1,5 @@
+index.html中添加<script type="module" src="/index.tsx"></script>
+
+git add .
+git commit -m "首次提交"
+git push -u origin main
