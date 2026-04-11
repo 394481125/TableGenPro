@@ -3,3 +3,12 @@ index.html中添加<script type="module" src="/index.tsx"></script>
 git add .
 git commit -m "首次提交"
 git push -u origin main
+
+
+# 强制删除损坏的依赖文件
+rm -rf node_modules package-lock.json
+
+# 重新安装所有依赖（必须确保这一步执行成功，无报错）
+npm install
+
+npm run build
